@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botão com JavaScript</title>
     <link rel="stylesheet" href="/css/style.css">
+    <title>Cálculo</title>
 </head>
 <body>
-    <main class="container">
-        <h1>Gerador de frases</h1>
+    
+    <h2>Cálculo</h2>
 
-        <button id="botaoCriar">Criar Frase</button>
-        <br><br>
-        <button id="botaoApagar">Apagar Tudo</button>
-        <br><br>
-        <p id="retorno"></p>
-    </main>
+    <form id="formCalculo">
+        <label for="numero1">Primeiro Número:</label><br><br>
+        <input type="number" id="numero1" placeholder="Ex: 10"><br><br>
+        <label for="numero2">Segundo Número: </label><br><br>
+        <input type="number" id="numero2" placeholder="ex: 10"><br><br>
+        <button type="submit">Somar</button>
+    </form>
+
+    <p id="resultadoCalculo"></p>
 
     <script src="/js/script.js"></script>
 </body>
